@@ -1,0 +1,26 @@
+public class FloatAdder {
+
+    private float num1;
+    private float num2;
+
+    // Private function to add two numbers
+    private float addNumbers() {
+        return num1 + num2;
+    }
+
+    public void setNumbers(float a, float b) {
+        num1 = a;
+        num2 = b;
+    }
+
+    public void showResult() {
+        float result = addNumbers();
+        System.out.println("Sum of the numbers: " + result);
+    }
+
+    public static void main(String[] args) {
+        FloatAdder adder = new FloatAdder();
+        adder.setNumbers(12.5f, 23.7f);  // setting two float values
+        adder.showResult();  // displaying the result
+    }
+}
