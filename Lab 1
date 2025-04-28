@@ -1,4 +1,4 @@
-public class FloatAdder {
+ public class FloatAdder {
 
     private float num1;
     private float num2;
